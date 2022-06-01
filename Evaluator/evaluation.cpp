@@ -138,6 +138,7 @@ void ShowHelp()
              <<"   see                       - see all sample tests \n"//done
              <<"   max[n]                    - set n as the maximum number of tests \n"//done
              <<"   tim[n]                    - set the maximum execution time in ms (max = 60s)\n"//done
+             <<"   fil[n]                    - set the name of how your program handles the input/output files\n"//done
              <<"   programs                  - see all programs \n"//done
              <<"   add(path, name)           - add a new program with the path to the *.exe file \n"//done
              <<"   evy[programID]            - evaluate the given program (not showing the correct output if program fails \n"//done
