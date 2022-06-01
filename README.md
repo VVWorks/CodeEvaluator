@@ -11,8 +11,8 @@ This program was build for windows but you can easily modify it for other system
 add(path, name). You can link how many executables you want just make sure to name them differently. To test a program use the command *evy* or *evn* (more about them in the help menu). You also have control under a set of parameters like execution time limit, number of tests, number of programs.
 
 # Commands: -------------------------------------------------
-   *help*                      - opens the help menu;
-   *exit*                      - close the console;
+   #   *help*                      - opens the help menu;
+   #   *exit*                      - close the console;
    *clear*                     - clears the screen;
    *view_ti*                   - view all input files;
    *view_ti[n]*                - view the n-th input file;
