@@ -11,7 +11,7 @@ This program was build for windows but you can easily modify it for other system
  
 # How to use: -------------------------------------------------
    First copy your inputs in the *TESTS/INPUT* folder and outputs in the *TESTS/OUTPUT* folder. Then use the command *update* to link the tests with the program. You can view certain tests, deactivate them and so on. To see the commands for doing this type *help*. Next, you should link your executable as well using the command 
-add(path, name). Remember that here *name* is the string used by your code to handle inputs/outputs. For example if your code reads an input file called *test.in* and returns another called *test.out*, the name will be *test*. You can link how many executables you want just make sure to name them differently. To test a program use the command *evy* or *evn* (more about them in the help menu). You also have control under a set of parameters like execution time limit, number of tests, number of programs.
+add(path, name). Remember to use the command *fil[n]* to set the filename of how your program handles input/output files. For example if your code reads an input file called *test.in* and returns another called *test.out*, you should write *fil[test]*. You can link how many executables you want just make sure to name them differently. To test a program use the command *evy* or *evn* (more about them in the help menu). You also have control under a set of parameters like execution time limit, number of tests, number of programs.
 
 # Commands: -------------------------------------------------
    #   *help*                      - opens the help menu
@@ -30,6 +30,7 @@ add(path, name). Remember that here *name* is the string used by your code to ha
    #   *see*                       - see all sample tests
    #   *max[n]*                    - set n as the maximum number of tests
    #   *tim[n]*                    - set the maximum execution time in ms (max = 60s)
+   #   *fil[n]*                    - set the name of how your program handles the input/output files
    #   *programs*                  - see all programs
    #   *add(path, name)*           - add a new program with the path to the .exe file (-name- is the string used by your programs to handle inputs/outputs)
    #   *evy[programID]*            - evaluate the given program (not showing the correct output if program fails
