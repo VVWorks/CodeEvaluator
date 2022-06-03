@@ -6,14 +6,14 @@ This program was build for windows but you can easily modify it for other system
    -This program does not compile your code, you have to do this yourself, it tests only the executable. 
    -Do NOT try to test unknown executables, otherwise you could harm your system.
    
-# Sample test formating: ---------------------------------
+# Sample test formating: --------------------------------
    You can name the files however you want but input files must have the .in extension and output files .out extension. Also in order to keep the order and link an output file with an input file the first numbers before .in/out determine the index of the sample test. For example if you have an imput file *test13.in*, the output file that will be expected is *test13.out* or *something13.out*, the words used doesn't matter, only the last numbers.
  
 # How to use: --------------------------------------------
    First copy your inputs in the *TESTS/INPUT* folder and outputs in the *TESTS/OUTPUT* folder. Then use the command *update* to link the tests with the program. You can view certain tests, deactivate them and so on. To see the commands for doing this type *help*. Next, you should link your executable as well using the command 
 add(path, name). Remember to use the command *fil[n]* to set the filename of how your program handles input/output files. For example if your code reads an input file called *test.in* and returns another called *test.out*, you should write *fil[test]*. You can link how many executables you want just make sure to name them differently. To test a program use the command *evy* or *evn* (more about them in the help menu). You also have control under a set of parameters like execution time limit, number of tests, number of programs.
 
-# Commands: ----------------------------------------------
+# Commands: ---------------------------------------------
    #   *help*                      - opens the help menu
    #   *exit*                      - close the console
    #   *clear*                     - clears the screen
